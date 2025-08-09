@@ -10,11 +10,6 @@ def get_book_text(path):
         return book.read()
 
 
-def get_num_words(text):
-    words = text.split()
-    return len(words)
-
-
 main()
 
 
